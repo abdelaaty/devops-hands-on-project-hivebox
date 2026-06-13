@@ -53,3 +53,21 @@ Here is a pre-start checklist:
 ## Implementation
 
 ** ADD YOUR IMPLEMENTATION DOCUMENTATION HERE **
+# HiveBox
+
+Environmental monitoring API using openSenseMap data.
+
+## Requirements
+- Docker
+
+## Build & Run
+
+### Build the image
+docker build -t hivebox:v0.0.1 .
+
+### Run the container
+docker run --rm hivebox:v0.0.1
+
+## Expected Output
+HiveBox v0.0.1
+
