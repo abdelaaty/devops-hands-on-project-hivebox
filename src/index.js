@@ -1,7 +1,11 @@
-const APP_VERSION = '0.0.1';
-function printVersion() {
-  console.log(`HiveBox: ${APP_VERSION}`);
-  process.exit(0);
-}
+const express = require('express');
+const routes = require('./routes/index');
+const app = express();
+const PORT = process.env.PORT || 3000;
+ 
+app.use('/', routes);
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
 
-printVersion();
+

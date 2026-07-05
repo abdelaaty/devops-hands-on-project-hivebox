@@ -4,7 +4,7 @@
   "description": "HiveBox API - Environmental data from senseBoxes",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/abdelaaty/devops-hands-on-project-hivebox/issues"
   },
-  "homepage": "https://github.com/abdelaaty/devops-hands-on-project-hivebox#readme"
+  "homepage": "https://github.com/abdelaaty/devops-hands-on-project-hivebox#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
