@@ -1,3 +1,5 @@
+//دالة لجلب درجة الحرارة من API الخاص بـ OpenSenseMap
+
 // قائمة بمعرفات صناديق SenseBox
 const SENSEBOX_IDS = [
   '5eba5fbad46fb8001b799786',

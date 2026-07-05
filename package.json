@@ -4,7 +4,9 @@
   "description": "HiveBox API - Environmental data from senseBoxes",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,8 @@
     "express": "^5.2.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "jest": "^30.4.2",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.2.2"
   }
 }
